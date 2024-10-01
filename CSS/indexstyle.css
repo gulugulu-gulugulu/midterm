@@ -1,0 +1,78 @@
+    *{
+      box-sizing: border-box;
+      margin:0;
+    }
+      body{
+        
+        background-image: url("purplesatinbg.gif");
+        background-color:#e4f4f7;
+        font-family: ms gothic;
+        src: url(fonts/MS\ Gothic.ttf);
+        width: 60vw;
+        margin: 3em auto;
+        text-align:center;
+      }
+      #banner{
+        width:90%;
+      }
+
+      .container{
+        border: 3px double rgb(255, 80, 217);
+        align:center;
+        margin:auto;
+        padding:1em;
+        background-color:rgba(0, 0, 0, 0.6);
+      }
+      h1{
+        font-style: bold;
+        color:rgb(253, 0, 181)
+      
+      }
+      #eye{
+        width:7%;
+      }
+      nav{
+        display:flex;
+        flex-direction:row;
+        background-color:rgba(59, 0, 71, 0.7);
+        border-radius: 10px;
+        text-decoration: none;
+        border: 1px dotted rgb(234, 126, 255);
+      }
+
+      ul{
+        text-decoration:none;
+      }
+
+      li {
+        display: inline-block;
+        width:200px;
+        line-height: 3em;
+        font-family:helvetica;
+      }
+      a{
+        text-decoration: none;
+        color:#ff70eeec;
+        font-weight:300;
+        font-size:1.5vw;
+        
+      }
+      a:hover{
+        color:rgb(0, 231, 73)
+      }
+      li:hover{
+        font-style: italic;
+        text-decoration: none;
+        
+      }
+
+      .hero>img{
+        margin-top:1em;
+        width:93%;
+      }
+
+      footer {
+        color:rgb(255, 126, 177);
+      }
+
+     
